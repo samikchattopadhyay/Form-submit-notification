@@ -1,0 +1,40 @@
+form {
+    padding: 20px;
+    margin: 50px;
+    width: 260px;
+    background-color: #F8F7E9;
+    border: 1px #D4A34D solid;
+}
+label.error {
+    display: block;
+    font-size: 10px;
+    color: #F00;
+}
+input, textarea, select {
+    border: 1px #000 solid;
+}
+input.error, textarea.error, select.error {
+    border: 1px #F00 solid;
+}
+div.message-box {
+    padding: 5px 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+div.success {
+    background-color: #E3F2E1;
+    border: 1px #278C1A solid;
+    color: #278C1A;
+}
+div.error {
+    background-color: #F2E7E1;
+    border: 1px #F55B1E solid;
+    color: #F55B1E;
+}
+div.info {
+    background-color: #E9EFF8;
+    border: 1px #148EDB solid;
+    color: #148EDB;
+}
